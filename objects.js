@@ -88,3 +88,17 @@ class CarFactory{
 }
 let civic = new CarFactory("Honda", "Civic", 2020)
 console.log(civic)
+
+
+function carFactory(make, model, year) {
+  let myCary = {
+    make: make,
+    model: model,
+    year: year
+  }
+  if(myCary.year > 2018) {
+    myCary.isNew = true
+  }
+  console.log(myCar)
+  return myCar
+}

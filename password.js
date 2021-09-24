@@ -9,5 +9,5 @@ function validator(password){
     }
 }
 
-validator("asdfg")
+validator("thisPasswordShouldBeLongEnough")
 

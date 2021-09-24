@@ -20,7 +20,6 @@ const gitDefinition = "Software for tracking project edits."
 //CODE HERE
 const gitHubDefinition = "A clean file storage location that keeps track of project edits."
 
-
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 

@@ -16,7 +16,7 @@ const  colorCopy = faveColors.slice()
 
 faveColors.push('white')
 
-
+console.log(faveColors)
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -27,13 +27,14 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-const middleNums = []
+// for(let i = 1; i < numbers.length - 1; i++){ 
+//   if(nums[i]){
+//     middleNums.push(numbers[i])
+//   }
+// }
 
-for(let i = 1; i < numbers.length - 1; i++){ 
-  if(nums[i]){
-    middleNums.push(numbers[i])
-  }
-}
+let middleNums = numbers.splice(1, 3)
+console.log(middleNums)
 //////////////////PROBLEM 4////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -50,15 +51,15 @@ for(let i = 1; i < numbers.length - 1; i++){
 // CODE HERE
 
 function bigOrSmall(arr){
-  answers = []
+  letAnswers = []
   for(i = 0; i < arr.length; i++) {
     if (arr[i] > 100) {
-      answers.push("big")
+      letAnswers.push("big")
     } else (
-      answers.push("small")
+      letAnswers.push("small")
     )
   }
-  return answers
+  console.log(letAnswers)
 }
-let finder = bigOrSmall(arr)
-  console.log(finder)
+bigOrSmall(33, 62, 3456, 34, 2)
+  
